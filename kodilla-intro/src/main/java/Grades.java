@@ -13,7 +13,7 @@ public class Grades {
 
     public void add(int value) {
         if (this.size == 10) {
-            return;
+            System.out.println("You can add max 10 grades, can't add more grades");
         }
         this.grades[this.size] = value;
         this.size++;

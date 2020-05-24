@@ -17,6 +17,23 @@ public class Notebook {
             System.out.println("This notebook is very heavy");
         }
     }
+
+    public void displayProperOpinion(char message) {
+        switch(message) {
+            case 'e':
+                System.out.println("This notebook produced in " + this.year + " is too expensive");
+                break;
+            case 'n':
+                System.out.println("This price is very good for a notebook produced in " + this.year);
+                break;
+            case 'c':
+                System.out.println("This notebook produced in " + this.year + " is very cheap");
+                break;
+            default:
+                System.out.println("Choose correct answer");
+        }
+    }
+
     public void checkPrice() {
         if (this.year < 1981) {
             System.out.println("There wasn't any notebook at that time on the sales market. " +
@@ -26,55 +43,55 @@ public class Notebook {
         } else if (this.year > 2020) {
             System.out.println("Enter current or past year");
         } else {
-            if (this.year >= 1981 && this.year < 1995) {    //1981-1994
+            if (this.year < 1995) {    //1981-1994
                 if (this.price > 300) {
-                    System.out.println("This notebook " + this.year + " is too expensive");
+                    displayProperOpinion('e');
                 } else {
-                    System.out.println("This price is very good for a notebook produced in " + this.year);
+                    displayProperOpinion('n');
                 }
             }
-            else if (this.year >= 1995 && this.year < 2005){   //1995-2004
-                if (this.price > 600){
-                    System.out.println("This notebook " + this.year + " is too expensive");
+            else if (this.year < 2005) {   //1995-2004
+                if (this.price > 600) {
+                    displayProperOpinion('e');
                 }
-                else if(this.price < 300){
-                    System.out.println("This notebook " + this.year + " is very cheap");
+                else if(this.price < 300) {
+                    displayProperOpinion('c');
                 }
                 else {
-                    System.out.println("This price is very good for a notebook produced in " + this.year);
+                    displayProperOpinion('n');
                 }
             }
-            else if (this.year >= 2005 && this.year < 2010){    //2005-2009
-                if (this.price > 1000){
-                    System.out.println("This notebook " + this.year + " is too expensive");
+            else if (this.year < 2010) {    //2005-2009
+                if (this.price > 1000) {
+                    displayProperOpinion('e');
                 }
-                else if(this.price < 600){
-                    System.out.println("This notebook " + this.year + " is very cheap");
+                else if(this.price < 600) {
+                    displayProperOpinion('c');
                 }
                 else {
-                    System.out.println("This price is very good for a notebook produced in " + this.year);
+                    displayProperOpinion('n');
                 }
             }
-            else if (this.year >=2010 && this.year < 2015){     //2010-2014
-                if (this.price > 1500){
-                    System.out.println("This notebook " + this.year + " is too expensive");
+            else if (this.year < 2015) {     //2010-2014
+                if (this.price > 1500) {
+                    displayProperOpinion('e');
                 }
-                else if(this.price < 1000){
-                    System.out.println("This notebook " + this.year + " is very cheap");
+                else if(this.price < 1000) {
+                    displayProperOpinion('c');
                 }
                 else {
-                    System.out.println("This price is very good for a notebook produced in " + this.year);
+                    displayProperOpinion('n');
                 }
             }
-            else if (this.year >=2015 && this.year <= 2020){     //2015-2020
-                if (this.price > 5000){
-                    System.out.println("This notebook produced in " + this.year + " is too expensive");
+            else if (this.year <= 2020) {     //2015-2020
+                if (this.price > 5000) {
+                    displayProperOpinion('e');
                 }
-                else if(this.price < 1500){
-                    System.out.println("This notebook " + this.year + " is very cheap");
+                else if(this.price < 1500) {
+                    displayProperOpinion('c');
                 }
                 else {
-                    System.out.println("This price is very good for a notebook produced in " + this.year);
+                    displayProperOpinion('n');
                 }
             }
         }
