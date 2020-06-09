@@ -1,6 +1,5 @@
 package com.kodilla.inheritance.homework;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Interface {
