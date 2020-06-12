@@ -3,21 +3,19 @@ package com.kodilla.abstracts.homework.job;
 import java.util.Scanner;
 
 public class Person {
+    private String firstName;
+    private int age;
+    private Job job;
 
+    Scanner scanner = new Scanner(System.in);
+    Accountant accountant;
+    Doctor doctor;
+    Programmer programmer;
 
     public Person() {
         this.firstName = firstName;
         this.age = age;
-        this.job = job;
     }
-
-    private String firstName;
-    private int age;
-    private Job job;
-    Scanner scanner = new Scanner(System.in);
-    Accountant accountant = new Accountant();
-    Doctor doctor = new Doctor();
-    Programmer programmer = new Programmer();
 
     public Job getJob() {
         return job;
@@ -25,11 +23,6 @@ public class Person {
 
     public void setJob(Job job) {
         this.job = job;
-    }
-
-    public Person(String firstName, int age) {
-        this.firstName = firstName;
-        this.age = age;
     }
 
     public String getFirstName() {
@@ -48,34 +41,39 @@ public class Person {
         this.age = age;
     }
 
-    public Job addPerson() {
+    public Job returnEmployeeJob() {
         System.out.println("Enter first name:");
         firstName = scanner.nextLine();
         setFirstName(firstName);
+
         System.out.println("Enter age:");
         age = scanner.nextInt();
         setAge(age);
+
         System.out.println("Select job: enter 1 for Accountant; 2 for Doctor, 3 for Programmer");
         int selection = scanner.nextInt();
-        switch(selection) {
-            case 1 : job = accountant;
-                    setJob(job);
+
+        switch (selection) {
+            case 1:
+                job = accountant;
+                setJob(new Accountant());
                 break;
-            case 2 : job = doctor;
-                setJob(job);
+            case 2:
+                job = doctor;
+                setJob(new Doctor());
                 break;
-            case 3: job = programmer;
-                setJob(job);
+            case 3:
+                job = programmer;
+                setJob(new Programmer());
                 break;
-            default: System.out.println("Enter correct number");
+            default:
+                System.out.println("Enter correct number");
         }
         return job;
     }
 
-    public void displayPersonDetails() {
+    public void displayEmployeeDetails(Job job) {
         System.out.println("Employee " + getFirstName() + ", age " + getAge());
-    }
-    public void displayPersonResponsibilities(Job job) {
         job.displayJobDetails();
     }
 }
