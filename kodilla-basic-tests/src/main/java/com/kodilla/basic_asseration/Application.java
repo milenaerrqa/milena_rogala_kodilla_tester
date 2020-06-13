@@ -2,9 +2,11 @@ package com.kodilla.basic_asseration;
 
 public class Application {
     public static void main(String[] args) {
+
         Calculator calculator = new Calculator();
         int a = 5;
         int b = 8;
+
         int sumResult = calculator.addNumbers(a, b);
         boolean correctSum = ResultChecker.assertEquals(13, sumResult);
 
@@ -23,13 +25,13 @@ public class Application {
             System.out.println("Metoda subtract nie działa poprawnie dla liczb " + a + " i " + b);
         }
 
-        int squareResult = calculator.squareNumber(a, b);
-        boolean correctSquared = ResultChecker.assertEquals(390625, squareResult);
+        double powResult = calculator.powNumbers(a, b);
+        boolean correctPow = ResultChecker.assertEquals(390625, powResult);
 
-        if (correctSubtr) {
-            System.out.println("Metoda square działa poprawnie dla liczb " + a + " i " + b);
+        if (correctPow) {
+            System.out.println("Metoda powNumber działa poprawnie dla liczb " + a + " i " + b);
         } else {
-            System.out.println("Metoda square nie działa poprawnie dla liczb " + a + " i " + b);
+            System.out.println("Metoda powNumber nie działa poprawnie dla liczb " + a + " i " + b);
         }
     }
 }
