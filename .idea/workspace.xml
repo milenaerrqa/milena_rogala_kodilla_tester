@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2ec635-e56f-4f67-b33f-46c15e15dee2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Accountant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/abstracts/homework/job/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
   </component>
-  <component name="RunManager" selected="Application.Application (2)">
+  <component name="RunManager" selected="Application.Application (3)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.abstracts.Application" />
       <module name="kodilla-course.kodilla-basic-tests.main" />
@@ -115,6 +107,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kodilla.abstracts.homework.job.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.basic_asseration.Application" />
+      <module name="kodilla-course.kodilla-basic-tests.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.basic_asseration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Colours" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colours" />
-      <module name="kodilla-course.kodilla-intro.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.inheritance.homework.Interface" />
       <module name="kodilla-course.kodilla-basic-tests.main" />
@@ -170,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Colours" />
       </list>
     </recent_temporary>
   </component>
@@ -249,29 +247,29 @@
     </state>
     <state x="650" y="190" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588709651024" />
     <state x="2732" y="240" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591206117903" />
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1591977085661">
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1591981301380">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589923476703" />
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591977085661" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591981301380" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590006088707" />
-    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1591977085661">
+    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1591981301380">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589923476703" />
-    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591977085661" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591981301380" />
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590006088707" />
-    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1591977085660">
+    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1591981301380">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589923476703" />
-    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591977085660" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591981301380" />
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590006088707" />
-    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1591977085661">
+    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1591981301380">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589923476703" />
-    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591977085661" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591981301380" />
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590006088707" />
     <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1591916029024">
       <screen x="1920" y="0" width="1920" height="1040" />
